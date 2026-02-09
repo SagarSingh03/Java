@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 public class Variables{
     public static void main (String[] args){
         int a = 10;
@@ -24,3 +25,17 @@ Other thing is class name and file name should be same if it is different then i
 this way so the compiler (and the Java Virtual Machine) can easily find the code it needs. When you tell Java to run a specific class, it
  looks for a file with that exact name to find the entry point.
 */
+=======
+public class Variables{
+    public static void main (String[] args){
+        int a = 10;
+        int b = 20; 
+        int c = 18;
+        int sum =  a + b + c;
+        System.out.println("Sum of all the Int values are: " + sum);
+        int simplification = a + b - c;
+        System.out.println("Val of Simplification : " + simplification);
+        
+    }
+}
+>>>>>>> 21d3f24a8c0dda2c245534bb65054c721a5b75d3
