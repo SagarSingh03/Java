@@ -40,3 +40,17 @@ this way so the compiler (and the Java Virtual Machine) can easily find the code
 //     }
 // }
 
+
+// In Java we can change the data type value later on : 
+// int a = 10;
+// int a = 20;
+
+// In Java there are 2 types of data types Primitive and Non primitive 
+// Primitive : byte, short, int , long, float, double, boolean, char.
+// Non-primitive : String, Array, Class, Object, Interface 
+
+// With the help of nextLine() we can take the multiple strings together as a i/p. 
+
+
+
+

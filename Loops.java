@@ -144,19 +144,19 @@
 
 // Print the sum of all the numbers from 1 to N (N is user Input) : 
 
-import java.util.*;
+// import java.util.*;
 
-public class Loops{
-    public static void main(String[] args){ // here when u run this code JVM looks for this exact method this is standard signature
-        Scanner sc = new Scanner(System.in);
-        int n = sc.nextInt();
-        int sum = 0;
-        for(int i = 0; i < n; i++){
-            sum = sum + i;
-        }
-        System.out.println("Sum of all the numbers : " + sum);
-    }
-}
+// public class Loops{
+//     public static void main(String[] args){ // here when u run this code JVM looks for this exact method this is standard signature
+//         Scanner sc = new Scanner(System.in);
+//         int n = sc.nextInt();
+//         int sum = 0;
+//         for(int i = 0; i < n; i++){
+//             sum = sum + i;
+//         }
+//         System.out.println("Sum of all the numbers : " + sum);
+//     }
+// }
 
 // String[] args because when you run a program from the command line These values are passed as text Strings. JVM sends them to your 
 // program like args[0] = "10" , args[1] = "20", args[2] = "30" 
