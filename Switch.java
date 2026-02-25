@@ -35,22 +35,25 @@
 import java.util.*;
 
 public class Switch {
-    public static void main(String[] args){
+    public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int greeting = sc.nextInt();
-        switch(greeting) {
-            case 1 :
-            System.out.println("Hello");
-            break;
-            case 2 : 
-            System.out.println("Namaste");
-            break;
-            case 3 :
-            System.out.println("Bonjour");
-            break;
+        switch (greeting) {
+            case 1:
+                System.out.println("Hello");
+                break;
+            case 2:
+                System.out.println("Namaste");
+                break;
+            case 3:
+                System.out.println("Bonjour");
+                break;
         }
     }
 }
 
-
-// The switch statement is used instead of an if-else chain primarily for better readability, maintainability, and performance when comparing a single variable against multiple distinct, constant values. While if-else is more flexible, switch provides a structured, cleaner way to handle multi-way branching.
+// The switch statement is used instead of an if-else chain primarily for better
+// readability, maintainability, and performance when comparing a single
+// variable against multiple distinct, constant values. While if-else is more
+// flexible, switch provides a structured, cleaner way to handle multi-way
+// branching.

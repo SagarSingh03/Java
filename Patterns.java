@@ -17,26 +17,26 @@
 // }
 
 // Hollow Reactangle Pattern *********************************************
-import java.util.*;
-public class Patterns {
-    public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-        int n = 4;
-        int m = 5;
-        // Outer loop
-        for (int i = 1; i <= n; i++) {
-            // Inner Loop
-            for (int j = 1; j <= m; j++) {
-                if (i == 1 || j == 1 || i == n || j == m) {
-                    System.out.print("*");
-                } else {
-                    System.out.print(" ");
-                }
-            }
-            System.out.println();
-        }
-    }
-}
+// import java.util.*;
+// public class Patterns {
+//     public static void main(String[] args) {
+//         Scanner sc = new Scanner(System.in);
+//         int n = 4;
+//         int m = 5;
+//         // Outer loop
+//         for (int i = 1; i <= n; i++) {
+//             // Inner Loop
+//             for (int j = 1; j <= m; j++) {
+//                 if (i == 1 || j == 1 || i == n || j == m) {
+//                     System.out.print("*");
+//                 } else {
+//                     System.out.print(" ");
+//                 }
+//             }
+//             System.out.println();
+//         }
+//     }
+// }
 
 // Half Pyramid Pattern***********************************************************
 // import java.util.*;
@@ -54,9 +54,9 @@ public class Patterns {
 //     }
 // }
 
-// Half Pyramid Pattern reverse Order
-// ****************************************************
-
+// Half Pyramid Pattern reverse Order ****************************************************
+// Outer Loop controls the number of loops i starts from number and goes up to 1.
+// Inner Loop controls how many times the symbol will be(*, #, %) will be printed
 // import java.util.*;
 
 // public class Patterns {
@@ -74,12 +74,12 @@ public class Patterns {
 //     }
 // }
 
-// Inverted Half Pyramid Rotated by 180deg ************************************************************
-// import java.util.*;
+// Right Aligned Half Pyramid  ************************************************************
 
+// import java.util.*;
 // public class Patterns {
 //     public static void main(String[] args) {
-//         Scanner sc = new Scanner(System.in);
+//          Scanner sc = new Scanner(System.in);
 //         int n = 4;
 //         for (int i = 1; i <= n; i++) {
 //             for (int j = 1; j <= n - i; j++) {
