@@ -123,7 +123,7 @@
 // }
 
 // Print the floyd's Triangle ******************************************************************
-
+// here we print the numbers by using their rows number of rows then number of elements gets printed. 
 // public class Patterns {
 //     public static void main(String[] args) {
 //         int n = 5;
@@ -140,18 +140,18 @@
 
 // 0 - 1 Traingle pattern *************************************************************************
 
-// public class Patterns {
-//     public static void main(String[] args) {
-//         int n = 5;
-//         for (int i = 1; i <= n; i++) {
-//             for (int j = 1; j <= i; j++) {
-//                 if ((i + j) % 2 == 0) {
-//                     System.out.print(1 + " ");
-//                 } else {
-//                     System.out.print(0 + " ");
-//                 }
-//             }
-//             System.out.println();
-//         }
-//     }
-// }
+public class Patterns {
+    public static void main(String[] args) {
+        int n = 5;
+        for (int i = 1; i <= n; i++) {
+            for (int j = 1; j <= i; j++) {
+                if ((i + j) % 2 == 0) {
+                    System.out.print(1 + " ");
+                } else {
+                    System.out.print(0 + " ");
+                }
+            }
+            System.out.println();
+        }
+    }
+}
