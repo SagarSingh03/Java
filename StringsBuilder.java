@@ -27,6 +27,7 @@
 // String Builder *******************************************************************
 
 // import java.util.*;
+
 // public static void main(String[] args) {
 //     StringBuilder sb = new StringBuilder("S");
 //     sb.append("a");
@@ -37,23 +38,25 @@
 //     System.out.println(sb); // here we can print the exact string
 // }
 
-// Reverse a String *********************************** Practice it again and again solve on leetcode
+// Reverse a String *********************************** Practice it again and
+// again solve on leetcode
 
-// import java.util.*;
-// public class StringsBuilder {
-// public static void main(String[] args) {
-//         StringBuilder sb = new StringBuilder("Sagar Singh");
-//         for (int i = 0; i < sb.length() / 2; i++) {
-//             int front = i;
-//             int back = sb.length() - 1 - i;
+import java.util.*;
 
-//             char frontChar = sb.charAt(front);
-//             char backChar = sb.charAt(back);
+public class StringsBuilder {
+    public static void main(String[] args) {
+        StringBuilder sb = new StringBuilder("Sagar Singh");
+        for (int i = 0; i < sb.length() / 2; i++) {
+            int front = i;
+            int back = sb.length() - 1 - i;
 
-//             sb.setCharAt(front, backChar);
-//             sb.setCharAt(back, frontChar);
-//         }
+            char frontChar = sb.charAt(front);
+            char backChar = sb.charAt(back);
 
-//         System.out.println(sb);
-//     }
-// }
+            sb.setCharAt(front, backChar);
+            sb.setCharAt(back, frontChar);
+        }
+
+        System.out.println(sb);
+    }
+}
