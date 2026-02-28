@@ -155,3 +155,7 @@ public class Patterns {
         }
     }
 }
+
+// Program to print full pyramid using * 
+
+// Check the TCS Sheet and solve coding qeustions from there. 

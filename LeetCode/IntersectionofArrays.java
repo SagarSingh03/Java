@@ -15,4 +15,4 @@ public class IntersectionofArrays {
 }
 
 
-// for leetcode Intersection of the array is not that easy. You need to learn alot
+// Intersection using Hashtable 
