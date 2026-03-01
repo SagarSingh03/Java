@@ -124,7 +124,7 @@
 
 // Print the floyd's Triangle ******************************************************************
 // here we print the numbers by using their rows number of rows then number of elements gets printed. 
-// public class Patterns {
+// public class Patterns {-
 //     public static void main(String[] args) {
 //         int n = 5;
 //         int number = 1;

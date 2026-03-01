@@ -49,6 +49,12 @@
 
 // Print a pascal Triangle 
 
+public class AdvancePattern {
+    public static void main(String[] args){
+        
+    }
+}
+
 // Print Half Pyramid 
 
 // Print Inverted half Pyramid 
