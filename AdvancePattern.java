@@ -21,23 +21,23 @@
 
 // Print the 1 ; 22 ; 333 ; 4444 ; 55555.********************************************
 
-public class AdvancePattern {
-    public static void main(String[] args) {
-        int n = 9;
-        for (int i = 1; i <= n; i++) {
-            // spaces
-            for (int j = 1; j <= n - i; j++) {
-                System.out.print(" ");
-            }
+// public class AdvancePattern {
+//     public static void main(String[] args) {
+//         int n = 9;
+//         for (int i = 1; i <= n; i++) {
+//             // spaces
+//             for (int j = 1; j <= n - i; j++) {
+//                 System.out.print(" ");
+//             }
 
-            // numbers
-            for (int j = 1; j <= i; j++) {
-                System.out.print(i + " ");
-            }
-            System.out.println();
-        }
-    }
-}
+//             // numbers
+//             for (int j = 1; j <= i; j++) {
+//                 System.out.print(i + " ");
+//             }
+//             System.out.println();
+//         }
+//     }
+// }
 
 // Print a Palindromic number Pyramid 
 
@@ -49,22 +49,22 @@ public class AdvancePattern {
 
 // Print a pascal Triangle **************************************************************
 
-// public class AdvancePattern {
-//     public static void main(String[] args) {
-//         int n = 7;
-//         for (int i = 0; i < n; i++) {
-//             for (int space = 0; space < n - i; space++) {
-//                 System.out.print(" ");
-//             }
-//             int number = 1;
-//             for (int j = 0; j <= i; j++) {
-//                 System.out.print(number + " ");
-//                 number = number * (i - j) / (j + 1);
-//             }
-//             System.out.println();
-//         }
-//     }
-// }
+public class AdvancePattern {
+    public static void main(String[] args) {
+        int n = 7;
+        for (int i = 0; i < n; i++) {
+            for (int space = 0; space < n - i; space++) {
+                System.out.print(" ");
+            }
+            int number = 1;
+            for (int j = 0; j <= i; j++) {
+                System.out.print(number + " ");
+                number = number * (i - j) / (j + 1);
+            }
+            System.out.println();
+        }
+    }
+}
 
 // Print Half Pyramid
 
@@ -76,4 +76,3 @@ public class AdvancePattern {
 
 // Program to Print Half Pyramid using Alphabets
 
-//
