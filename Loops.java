@@ -164,3 +164,15 @@
 // Why not int[] args becasue JVM only knows how to pass String[] not int[] , double[], char[] 
 // JVM → delivers a packet of text Your program → converts it into int if needed
 
+// *********************** Enhanced for loop in Java : It is used to Iterate through arrays or Collections only*****************
+// for (datatype variable : array_or_collections) {
+// }
+
+public class Loops {
+    public static void main(String[] args) {
+        int[] nums = { 10, 20, 30, 40 };
+        for (int num : nums) {
+            System.out.print(num + " ");
+        }
+    }
+}

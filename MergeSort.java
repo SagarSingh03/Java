@@ -1,7 +1,8 @@
 // Merge sort is Primarily based on divide and conquer. 
 // here in merge sort given data can be sorted as well as unsorted if the data is unsorted then sort it first. 
 // data can be sorted in any order asc or desc.
-
+// It is a preferred algorithm for Sorting Linked list. in future 2 questions you can get Sort linkedlist and sort two linkedlist 
+// Merge sort is slower than the Quick Sort in general as Quick sort is more cache friendly because it works in-place.
 public class MergeSort {
     public static void conquer(int arr[], int si, int mid, int ei) {
         // Fix 1: Renamed 'merger' to 'merged' to match your usage below
