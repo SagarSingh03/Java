@@ -1,4 +1,4 @@
-// Sort an array without any Built-in method and also the array should be sorted in ascending order. 
+// Leetcode : 912 Sort an array without any Built-in method and also the array should be sorted in ascending order. 
 // Merge sort use here
 public class ArraySorted {
     public static void main(String[] args){

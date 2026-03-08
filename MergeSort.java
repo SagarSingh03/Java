@@ -3,18 +3,20 @@
 // data can be sorted in any order asc or desc.
 // It is a preferred algorithm for Sorting Linked list. in future 2 questions you can get Sort linkedlist and sort two linkedlist 
 // Merge sort is slower than the Quick Sort in general as Quick sort is more cache friendly because it works in-place.
+
+
 public class MergeSort {
     public static void conquer(int arr[], int si, int mid, int ei) {
         // Fix 1: Renamed 'merger' to 'merged' to match your usage below
         int merged[] = new int[ei - si + 1];
 
-        int idx1 = si;
-        int idx2 = mid + 1;
+        int idx1 = si; // Pointer for left subarray 
+        int idx2 = mid + 1; // Pointer for right subarray
         int x = 0;
 
-        while (idx1 <= mid && idx2 <= ei) {
-            if (arr[idx1] <= arr[idx2]) {
-                merged[x++] = arr[idx1++];
+        while (idx1 <= mid && idx2 <= ei) { // we compare here the array index value not the index
+             if (arr[idx1] <= arr[idx2]) { 
+                merged[x++] = arr[idx1++]; 
             } else {
                 merged[x++] = arr[idx2++];
             }
