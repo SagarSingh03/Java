@@ -1,18 +1,18 @@
-public class Strings {
-    public static void main(String[] args) {
-        String name = "Tony"; // this is strings
-        String fullName = "Tony Stark";
-        String sentence = "My name is Tony Stark";
-        System.out.println(name + " " + fullName + "@" + sentence); // here is showns how all the strings are
-                                                                    // concatenated together.
-        System.out.println(sentence.length());
+// public class Strings {
+//     public static void main(String[] args) {
+//         String name = "Tony"; // this is strings
+//         String fullName = "Tony Stark";
+//         String sentence = "My name is Tony Stark";
+//         System.out.println(name + " " + fullName + "@" + sentence); // here is showns how all the strings are
+//                                                                     // concatenated together.
+//         System.out.println(sentence.length());
 
-        // charAt
-        for (int i = 0; i < fullName.length(); i++) {
-            System.out.println(fullName.charAt(i));
-        }
-    }
-}
+//         // charAt
+//         for (int i = 0; i < fullName.length(); i++) {
+//             System.out.println(fullName.charAt(i));
+//         }
+//     }
+// }
 
 
 // here We are taking Strings i/p from the user.********************************************************
