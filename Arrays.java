@@ -75,10 +75,10 @@
 
 //             int marks[] = {97,98,99,100}; // this is also one way to define an array. 
 
-//             // System.out.println(marks); // This will give us a Jargon value. This will not print right value of the array. 
-//             // System.out.println(marks[0]); // This will print the right value of the arrays
-//             // System.out.println(marks[1]); // but this is not the best method to print the array values we should use loops for that
-//             // System.out.println(marks[2]);
+//             System.out.println(marks); // This will give us a Jargon value. This will not print right value of the array. 
+//             System.out.println(marks[0]); // This will print the right value of the arrays
+//             System.out.println(marks[1]); // but this is not the best method to print the array values we should use loops for that
+//             System.out.println(marks[2]);
 //             for (int i = 0; i < 3; i++){
 //                 System.out.println(marks[i]);
 //             }
@@ -101,7 +101,7 @@
 
 //         // output
 //         for (int i = 0; i < size; i++) { // this is giving the size of the array 
-//             System.out.println(numbers[i]);
+//             System.out.println(numbers[i] + " ");
 //         }
 
 //     }
@@ -109,24 +109,24 @@
 
 // Take an array as i/p from the user. Search for a given number x and print the index at which it occurs. *******************************************
 
-import java.util.*;
+// import java.util.*;
 
-public class Arrays {
-    public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-        int size = sc.nextInt();
-        int numbers[] = new int[size];
+// public class Arrays {
+//     public static void main(String[] args) {
+//         Scanner sc = new Scanner(System.in);
+//         int size = sc.nextInt();
+//         int numbers[] = new int[size];
 
-        for (int i = 0; i < size; i++) {
-            numbers[i] = sc.nextInt();
-        }
+//         for (int i = 0; i < size; i++) {
+//             numbers[i] = sc.nextInt();
+//         }
 
-        int x = sc.nextInt(); // this is for what element we are finding in the array
+//         int x = sc.nextInt(); // this is for what element we are finding in the array
 
-        for (int i = 0; i < numbers.length; i++) {
-            if (numbers[i] == x) {
-                System.out.println("x found at index: " + i);
-            }
-        }
-    }
-}
+//         for (int i = 0; i < numbers.length; i++) {
+//             if (numbers[i] == x) {
+//                 System.out.println("x found at index: " + i);
+//             }
+//         }
+//     }
+// }
