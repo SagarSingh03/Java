@@ -1,32 +1,29 @@
 // Leetcode 53: Maximum Subarray sums 
 // In Subarray the array need to be continuous 
 // Subarray can Start from any index of the array
+// Here we have used Kadanes Algorithm 
 
+import java.util.*;
 
-// public class MaximumSubarray {
-//     public static void main(String[] args) {
-//         int[] arr = { 1, 2, 3, 4, 5 };
-//         int n = arr.length;
+public class MaximumSubarray {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
 
-//         int maxSum = Integer.MIN_VALUE;
+        int n = sc.nextInt();
+        int[] arr = new int[n];
 
-//         for (int st = 0; st < n; st++) {
-//             int currSum = 0;
-//             for (int end = st; end < n; end++) {
-//                 currSum += arr[end];
-//                 maxSum = Math.max(currSum, maxSum);
-//                 for (int i = st; i <= end; i++) {
-//                     System.out.print(arr[i] + " ");
-//                 }
-//                 System.out.println("Sum = " + currSum);
-//             }
-//             System.out.println();
-//         }
-//         System.out.println("Maximum Subarray sum = " + maxSum);
-//     }
-// }
+        for (int i = 0; i < n; i++) {
+            arr[i] = sc.nextInt();
+        }
 
+        int currSum = arr[0], maxSum = arr[0];
 
+        for (int i = 1; i < n; i++) {
+            currSum = Math.max(arr[i], currSum + arr[i]);
+            maxSum = Math.max(maxSum, currSum);
+        }
+        System.out.print(maxSum);
+    }
+}
 
-// Kadane's Algorithm 
 
