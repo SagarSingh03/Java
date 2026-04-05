@@ -1,0 +1,54 @@
+Recursion is a Process in which a function calls itself directly or indirectly is called recursion and the corresponding function is called 
+a recursive function. 
+
+Working of Recursion
+The idea is to represent a problem in terms of one or more smaller sub-problems and add base conditions that stop the recursion.
+ For example, we compute factorial n if we know the factorial of (n-1). The base case for factorial would be n = 0. We return 1 
+ when n = 0
+
+Advantages of Recursive Programming
+The advantages of recursive programs are as follows:
+Recursion provides a clean and simple way to write code.
+Some problems are inherently recursive like tree traversals, Tower of Hanoi, etc. For such problems, it is preferred to write 
+recursive code.
+
+Disadvantages of Recursive Programming
+The disadvantages of recursive programs is as follows:
+The recursive program has greater space requirements than the iterative program as all functions will remain in the stack 
+until the base case is reached.
+It also has greater time requirements because of function calls and returns overhead.
+
+
+Recursion concepts are little messier. You have to practice it alot for the basic level clarity. Like how the power works for that you need 
+to practice it several times and dry run it thoroughly then only you can understand it and get the feel of it. 
+
+Stack RAM main memory kei andar hota hai : 
+Stack : memory jahan har function call ka data + pending work store hota hai. 
+[ Stack ]   ← function calls (recursion, local variables)
+[ Heap  ]   ← objects, dynamic memory
+[ Code  ]   ← program instructions
+
+Jab tu program run karta hai:
+OS (Operating System) tere program ko RAM deta hai
+Us RAM ka ek part Stack ke liye reserve hota hai
+StackOverflow : 1. Jab bohat jaada recursive calls ho jaaye 2. Stack ki limit cross ho jaye : Error : StackoverflowError
+Stack RAM ke andar ek reserved memory area hai jahan function calls aur unka data store hota hai
+
+Recursion Lecture : 02 : 
+
+Tower of Hanoi : The Tower of Hanoi is a classic problem in computer science and mathematics used to teach recursion and problem-solving.
+It’s a puzzle with:
+3 rods (or pegs)
+N disks of different sizes stacked on one rod (largest at bottom, smallest on top)
+Goal:Move all disks from the source rod → destination rod, using the third rod as a helper.
+
+Rules (very important)
+Only one disk can be moved at a time
+You can only move the top disk from any rod
+You can never place a bigger disk on a smaller disk
+
+Why is it important?
+Teaches recursion deeply
+Helps understand divide & conquer
+Used in algorithm thinking and interviews
+
