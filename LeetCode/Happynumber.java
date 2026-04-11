@@ -1,15 +1,33 @@
 import java.util.*;
+
 public class Happynumber {
-    public static void main(String[] args){
+    public static boolean isHappy(int n) {
+        HashSet<Integer> seen = new HashSet<>();
+
+        while (n != 1 && !seen.contains(n)) {
+            seen.add(n);
+            int sum = 0;
+
+            while (n > 0) {
+                int digit = n % 10;
+                sum += digit * digit;
+                n = n / 10;
+            }
+            n = sum;
+        }
+        return n == 1;
+
+    }
+
+    public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
+        System.out.print("Enter a number : ");
         int num = sc.nextInt();
 
-        if (num < 0 || num == 0){
-            System.out.print("You cannot check Happy number for -ve number or 0");
-            
-        } 
-
-        int happyNumber = 0;
-        
+        if (isHappy(num)) {
+            System.out.print("Happy number");
+        } else {
+            System.out.println("Not a happy number");
+        }
     }
 }
