@@ -63,3 +63,6 @@ public class Inheritance {
 // Some places you can see Hybrid Inheritance
 // Multiple Inheritance is also there but that is not in Java that is in C++. In
 // java we use Interfaces.
+
+// Java does not support multiple inheritance with classes mainly because of diamond problem (Diamond problem happens in multiple inheritance when a class gets the 
+// same method from two parent classes, causing confusion about which method to be used.)
