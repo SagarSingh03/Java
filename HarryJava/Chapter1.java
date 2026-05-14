@@ -55,3 +55,22 @@
 // *****************************************************************************************
 //  Write a Java Program to detect whether a number entered by the user is integer or not? 
 
+// import java.util.*;
+
+// public class checkInteger {
+//     public static void main(String[] args) {
+//         Scanner sc = new Scanner(System.in);
+//         double n = sc.nextDouble();
+//         if (n == (int) n) {
+//             System.out.print("It is a Integer");
+//         } else {
+//             System.out.print("It is not a Integer");
+//         }
+//     }
+// }
+
+// **********************************************************************
+
+public class Chapter1{
+
+}
