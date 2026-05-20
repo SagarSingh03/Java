@@ -88,7 +88,7 @@
 // }
 
 // ****************************************************************************
- 
+
 // public class Chapter3{
 //     public static void main(String[] args) {
 //         String name = "Sagar";
@@ -160,22 +160,58 @@
 // *********************************************************************************
 // Write a Java Program to convert a string to lowerCase? 
 
+// public class Chapter3{
+//     public static void main(String[] args){
+//         String s = "SAGAR";
+//         String words = s.toLowerCase();
+//         System.out.print(words);
+//     }
+// }
 
 // ********************************************************************************
 // Write a Java Program to replace spaces with underscores? 
 
+// public class Chapter3 {
+//     public static void main(String[] args) {
+//         String s = "Sagar Singh Rajput";
+//         String spaceRemoved = s.replace(" ", "_");
+//         System.out.print(spaceRemoved);
+//     }
+// }
 
 // ********************************************************************************
-//  Write a Java Program to fill in a letter template which looks like below : 
+// Write a Java Program to fill in a letter template which looks like below :
 // letter = "Dear <|name|> , Thanks a lot"
 // Replace <|name|> with a String (some name)
 
+// public class Chapter3 {
+//     public static void main(String[] args) {
+//         String letter = "Dear <|name|>, Thanks a lot";
+//         String name = "Sagar";
+//         letter = letter.replace("<|name|>", name);
+//         System.out.println(letter);
+//     }
+// }
 
 // ********************************************************************************
-// Write a Java Program to detect double and type spaces in a String 
+// Write a Java Program to detect double and type spaces in a String
 
+// public class Chapter3{
+//     public static void main(String[] args) {
+//         String s = "Sagar Singh Rajput";
+//         System.out.print(s.indexOf(" "));
+//         System.out.print(s.indexOf("   "));
+//     }
+// }
 
 // *********************************************************************************
-// Write a Program to format the following letter using escape sequence character
+// Write a Program to format the following letter using escape sequence
+// character
 // letter = "Dear Harry, This Java Course is Nice. Thanks"
 
+public class Chapter3 {
+    public static void main(String[] args) {
+        String letter = "Dear Harry, \n\t\'This Java Course is Nice.\' Thanks";
+        System.out.print(letter);
+    }
+}
