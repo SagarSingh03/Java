@@ -50,8 +50,8 @@ Hashing (to handle cases where data is not naturally sorted).
 
 
 9. What assumptions are usually made when applying the Two Pointer Technique?
-The input is often sorted or can be transformed into a form where ordering helps.
-Each pointer moves in a monotonic direction (no backtracking, ensuring linear traversal).
+The input is often sorted or can be transformed into a form where ordering helps. Each pointer moves in a monotonic direction 
+(no backtracking, ensuring linear traversal).
 The problem can be solved through a linear scan instead of nested iterations.
 
 
