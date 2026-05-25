@@ -1,4 +1,4 @@
-Important Points Fot Two Pointer are : 
+Important Points For Two Pointer are : 
 1. Works only on Sorted Array 
 2. There are 3 ways how two pointer works: i.) Same direction move ii.) Opposite direction moves iii.) Different direction moves
 3. 
