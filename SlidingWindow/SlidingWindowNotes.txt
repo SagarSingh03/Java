@@ -22,14 +22,13 @@ It reduces unnecessary repeated computations.
 Instead of:
 calculating every subarray again and again,
 we:
-reuse previous calculations while moving the window.
-This makes solutions faster and more optimized.
+reuse previous calculations while moving the window. This makes solutions faster and more optimized.
 
 ******************************************************************************************************
 Types of Sliding Window
 There are mainly 2 types:
 Fixed Size Window
-Variable Size Window
+Variable or Dynamic Size Window
 
 *****************************************************************************************************
 1. Fixed Size Sliding Window
