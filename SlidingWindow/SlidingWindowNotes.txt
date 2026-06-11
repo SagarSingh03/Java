@@ -1,3 +1,13 @@
+Sliding window is easy question you just need to visualize it. Complete the CTO bhaiya playlist and as you move forward keep revising it on daily basis. 
+Just after solving the code just see the code next day. 
+and when the playlist completes then solve those question again in one day seat for 8 to 9 hours and start solving one by one. 
+
+Steps : 
+1. First see how to start a window.
+2. Clear where to apply Fixed size and where to apply Dynamic size. 
+3. How to apply fixed size? 
+4. How to apply Dynamic size?
+
 Sliding Window is a DSA technique used mainly with arrays and strings to solve problems faster.
 Instead of checking every possible subarray again and again, we use a window that moves (slides) through the array.
 Think of it like this:
@@ -167,3 +177,7 @@ Complexity improvement
 That impresses interviewers much more.
 
 ***********************************************************************************************************
+
+Learn how to use return in Vs Code Duplicate Contains 2 question is solved using same method .
+Learn How to use HashSet with Sliding Window. 
+

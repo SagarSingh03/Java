@@ -13,7 +13,7 @@ public class AppendCharacters {
 
         while (i < s.length() && j < t.length()) {
             if (s.charAt(i) == t.charAt(j)) {
-                j++;    
+                j++;
             }
             i++;
         }

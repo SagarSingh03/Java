@@ -62,3 +62,15 @@ Processing logs or sorted datasets.
 Implementing efficient merging in merge sort.
 Substring search and string pattern matching.
 Detecting palindromes in text processing.
+
+
+Practice These Questions for solving Two Pointer questions : 
+1. Traverse Over array 
+2. Traverse String 
+3. Check if element exist in Array
+4. Chekc if element exist in String 
+5. Swap Practice 
+6. Two pointer traverse over array 
+7. Two Pointer traverse over string 
+8. Reverse array using two pointer 
+9. Reverse String two pointer 

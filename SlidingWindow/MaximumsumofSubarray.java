@@ -13,8 +13,8 @@ public class MaximumsumofSubarray {
 
         max = Math.max(max, sum);
         for (int i = k; i < arr.length; i++) { // loop for moving ahead window wise
-            sum = sum + arr[i];
-            sum = sum - arr[i - k];
+            sum = sum + arr[i]; // It takes the new element
+            sum = sum - arr[i - k]; // It exists the Old element
 
             max = Math.max(max, sum);
         }
@@ -22,4 +22,5 @@ public class MaximumsumofSubarray {
         System.out.print(max);
     }
 }
+
 

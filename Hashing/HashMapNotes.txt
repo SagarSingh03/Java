@@ -1,0 +1,18 @@
+// HashMap Notes : 
+
+// A HashMap is a data structure that stores data in key-value pairs, where each key is unique and is used to quickly 
+access its corresponding value.
+
+Stores: Key → Value
+Keys cannot be duplicate
+Average time complexity for put() and get() is O(1)
+Does not maintain insertion order
+
+Hashset can be used for Array, string, Linkedlist and with any other data structure. Where you want unique elements or 
+fast searching. 
+
+Array → HashSet<Integer>
+String → HashSet<Character>
+Words → HashSet<String>
+
+In case of using HashSet, HashMap you have to call in Java in top. Before Class. Remember all this Library's
